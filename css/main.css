@@ -1,0 +1,67 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #EFEFEF;
+  color:white;
+  font-size: 22px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-image: url('../Img/aaa.gif');
+}
+
+#container{
+  display:grid;
+  border: 1px solid red;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: calc(15vh - 10px) calc(15vh - 10px) calc(40vh - 10px) calc(15vh - 10px) calc(15vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#container .celda1{
+  padding: 10px;
+  background-color:#000000
+  ;
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+  grid-column: /
+  grid-row: /
+}
+
+#container .celda2{
+  padding: 10px;
+  background-color:#000000
+  ;
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+  grid-column: /
+  grid-row: /
+}
+
+#container .celda3{
+  padding: 10px;
+  background-color:#000000
+  ;
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+  grid-column: /
+  grid-row: /
+}
+
+#container .celda4{
+  padding: 10px;
+  background-color:#000000
+  ;
+  border-radius: 10px;
+  height: 150px;
+  width: 270px;
+  grid-column: /
+  grid-row: /
+}
